@@ -1,0 +1,10 @@
+Install steps to get DJANGO working on a RPI.
+
+# Update.
+sudo apt-get update 
+
+# Install apache
+sudo apt-get install apache2 -y 
+
+# Install libapache2 wsgi for python 3
+sudo apt-get install libapache2-mod-wsgi-py3
